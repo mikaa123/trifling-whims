@@ -51,7 +51,7 @@ class Blog < Sinatra::Base
           item.link = link
           item.title = title
           item.updated = updated
-          item.summary = summary
+          item.content = summary
         end
       end
     end

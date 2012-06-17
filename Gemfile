@@ -3,4 +3,5 @@ source :rubygems
 gem 'sinatra'
 gem 'haml'
 gem 'metadown'
+gem 'thin'
 
