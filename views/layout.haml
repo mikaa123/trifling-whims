@@ -1,0 +1,47 @@
+!!! 5
+/[if lt IE 7 ] <html class="ie ie6" lang="en">
+/[if IE 7 ] <html class="ie ie7" lang="en">
+/[if IE 8 ] <html class="ie ie8" lang="en">
+/ [if (gte IE 9)|!(IE)]><!
+%html{:lang => "en"}
+
+  %head
+    %link{:href => "http://fonts.googleapis.com/css?family=EB+Garamond", :rel => "stylesheet", :type => 'text/css'}/
+
+    %meta{:charset => "utf-8"}/
+    %title= title
+    <link href="http://feeds.feedburner.com/steveklabnik" rel="alternate" title="Literate Programming" type="application/atom+xml"/>
+    
+    /[if lt IE 9]
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+    %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1", :name => "viewport"}/
+
+    / JS
+    %script{:src => "http://code.jquery.com/jquery-1.6.4.min.js"}
+    %script{:src => "/javascripts/app.js"}
+    
+    / Stylesheets
+    %link{:href => "/stylesheets/base.css", :rel => "stylesheet"}/
+    %link{:href => "/stylesheets/prettify.css", :rel => "stylesheet"}/
+  %body
+    %header
+      .logo
+        .ms
+          MICHAEL SOKOL'S
+        .ic
+          INTERNET CORNER
+      %nav
+        %ul
+          %li
+            %a{:href => '/'} HOME
+            |
+            %a{:href => '/archive'} ARCHIVE
+            |
+            %a{:href => '/about'} ABOUT
+
+    .separation
+      \- - - -
+
+    = yield
+

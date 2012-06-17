@@ -1,0 +1,11 @@
+%section
+  %h1 Archive
+
+  %p
+    All the posts I've published:
+
+  %ul
+    - @archives.each do |title, link|
+      %li
+        %a{:href => link}= title
+
