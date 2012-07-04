@@ -9,7 +9,7 @@ class Blog < Sinatra::Base
   helpers do
     def title
       title = @title ? "#{@title} - " : ""
-      "#{title}ms"
+      "#{title}Trifling Whims"
     end
   end
   
@@ -35,6 +35,10 @@ class Blog < Sinatra::Base
     rescue Errno::ENOENT #lol i suck
       throw :halt, [404, "Not found"] 
     end
+  end
+
+  get '/puns' do
+    haml :puns
   end
 
   get '/atom.xml' do

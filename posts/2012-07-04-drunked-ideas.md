@@ -1,0 +1,60 @@
+---
+title: "drunked ideas"
+date: 2012-07-04 01:42
+---
+
+One day, my friend and I decided to go to the bar. It was meerly drizzling outside and we barely needed a jacket.
+In other words, the weather was beautiful - we live in Paris - and we were up to having a good time.
+
+My friend and I are both engineer. We enjoy talking about technology and innovation. As old class-mates, we did
+a couple of projects together, such as "The Head Traveler", a project that makes you travel through time, space
+and memory simply by asking you to close your eyes and imagine things.
+
+We are seating at the end of the long rectangular table. Each of us civilizely sipping our whisky on the rocks.
+The conversation is focused around this yet-to-be-named project about how-tos, dinosaures and simplicity. Disneyland. 
+If people use an application to tell them how to ride space-mountain, would they need a video embedded in the
+explanations? Sand-castle. My glass is almost empty. People have filled the room and I'm grinning.
+
+My friend stands up. "I'm getting us more drink", he says. I nod and turn-on my laptop. The Deerhunter are playing on
+the stereo or maybe it's Britney Spears. Our phones are on the table. Things accelerate. Our brains start to receive an
+unlimited stream of ideas. Innovation. Schemas. Things are getting clearer by the second. Each words we say solves a problem.
+
+My friend stands up again. At this time, he doesn't say anything but comes back with more drinks. More people are sitting
+around us. Some decided to talk to us. We are both grinning. The stereo is playing Dirty Projectors or maybe it's Kanye West.
+
+We look at our phones with new eyes. We are entering a new reality. It seems like we are explorators in a land filled with
+oportunities. Everytime we take another sip, a new possibility arise. The vision narrows. Details get blurry. They vanish
+and we are left with nothing but insight.
+
+Soon we find ourselves digressing about teleportation. The question isn't "Is it physically possible?" but "How could we
+do it?". Our brains work full speed. The reasoning isn't about obscure equation; but about obvious possibilities. There
+is a simple answer for everything, surely there must be a simple answer to that inquery? "Let's create an app that lets
+people teleport!", I say. Problem solved. Next.
+
+My friend gets up, or maybe it's me. The stereo is playing "Electric Light Orchestra", or maybe it's "The Backstreet Boys".
+There are more people around us. More ideas flow from everywhere. My friend sits back, or maybe I do.
+
+I'd like to stop right here. This is the exact moment I started to talk to utter an idea. I didn't know what the idea was
+until I heard me say it out loud. This inside-out ellicitation of my neuronal connexions is what to be remembered as the highlight
+of that evening. That moment was physically rewarding. You know this is something big because every part of your body wants to take action.
+You want to do it. Before you even realize, you start to think of all the consequences this idea could have on your daily
+life and on people in general. You see things in big. It's obvious. And then nothing else matters. You are in a blissful state and nothing could
+ever make you feel bad. You found a meaning to your life, a path to greatness. You know Ayn Rand would be proud of you.
+
+"Let's create an app with a cow that reads tweets aloud!!1, " says I, grinning. "And let's him have a snail companion that
+shows images!".
+
+And then the feedback. It's something intrinsic. I didn't need to hear his answer to know what he thought, his eyes and
+chuckle betrayed him. Wasn't it obviously the best idea we had ever thought about? "And a turtle that shows where the tweets come from on a map!!1".
+
+Then you wake up the next day. As a rule, I've told myself to wait until the next day to judge if an idea is good or not.
+Coming back to reality is a strange process. You remember the enthusiasm; unfortunately, you also remember the idea that
+caused it. How does something that seemed so clever and useful can become so futile in the course of a long sleep? Did some
+commando get into my dreams and switched the real idea with a makeshift one, à la inception? Or maybe it was simply an idea
+that belonged to another dimension, the one who's entrance is a couple of glasses.
+
+I decided to make that idea. I build an app with a cow that talks, a snail that shows images, and I'm still working on the
+turtle that shows a map. If a part of me decided that this idea was awesome at some point, then I shouldn't think twice
+about making it. Who cares in the end if it's not the answer to life, the universe, and everything? It's still a freaking
+cow that talks out loud.
+
