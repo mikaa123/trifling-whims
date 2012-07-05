@@ -3,33 +3,32 @@ title: "drunked ideas"
 date: 2012-07-04 01:42
 ---
 
-One day, my friend and I decided to go to the bar. It was meerly drizzling outside and we barely needed a jacket.
-In other words, the weather was beautiful - we live in Paris - and we were up to having a good time.
+One day, my friend and I decided to go to the bar. Drizzling and windy, it was a beautiful summer day in Paris.
 
-My friend and I are both engineer. We enjoy talking about technology and innovation. As old class-mates, we did
+My friend and I are both engineer. As such, we enjoy talking about technology and innovation. As old class-mates, we did
 a couple of projects together, such as "The Head Traveler", a project that makes you travel through time, space
 and memory simply by asking you to close your eyes and imagine things.
 
-We are seating at the end of the long rectangular table. Each of us civilizely sipping our whisky on the rocks.
-The conversation is focused around this yet-to-be-named project about how-tos, dinosaures and simplicity. Disneyland. 
-If people use an application to tell them how to ride space-mountain, would they need a video embedded in the
-explanations? Sand-castle. My glass is almost empty. People have filled the room and I'm grinning.
+We are seating at the end of this long rectangular table. Each of us civilizely sipping our whisky on the rocks.
+The conversation is focused around this yet-to-be-named project about how-tos, dinosaures and simplicity that we have. 
+Multiple questions arise. I start thinking about Disneyland. If people use an application to tell them how to ride space-mountain,
+would they need a video embedded in the explanations? Sand-castle. My glass is almost empty. People have filled the room and I'm grinning.
 
 My friend stands up. "I'm getting us more drink", he says. I nod and turn-on my laptop. The Deerhunter are playing on
 the stereo or maybe it's Britney Spears. Our phones are on the table. Things accelerate. Our brains start to receive an
-unlimited stream of ideas. Innovation. Schemas. Things are getting clearer by the second. Each words we say solves a problem.
+unlimited stream of ideas. Innovation. Things are getting clearer by the second. Each words we say solves a problem.
 
 My friend stands up again. At this time, he doesn't say anything but comes back with more drinks. More people are sitting
 around us. Some decided to talk to us. We are both grinning. The stereo is playing Dirty Projectors or maybe it's Kanye West.
 
-We look at our phones with new eyes. We are entering a new reality. It seems like we are explorators in a land filled with
+We are entering a new reality. We look at our phones with new eyes. It seems like we are explorators in a land filled with
 oportunities. Everytime we take another sip, a new possibility arise. The vision narrows. Details get blurry. They vanish
-and we are left with nothing but insight.
+and we are left with nothing but insight. Sip.
 
 Soon we find ourselves digressing about teleportation. The question isn't "Is it physically possible?" but "How could we
 do it?". Our brains work full speed. The reasoning isn't about obscure equation; but about obvious possibilities. There
 is a simple answer for everything, surely there must be a simple answer to that inquery? "Let's create an app that lets
-people teleport!", I say. Problem solved. Next.
+people teleport!". Problem solved. Next.
 
 My friend gets up, or maybe it's me. The stereo is playing "Electric Light Orchestra", or maybe it's "The Backstreet Boys".
 There are more people around us. More ideas flow from everywhere. My friend sits back, or maybe I do.
