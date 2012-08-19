@@ -67,7 +67,14 @@ nav li, nav ul {
   text-align: center;
 }
 
-section, article {
+section {
+  width: 465px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+article {
   width: 400px;
   margin-left: auto;
   margin-right: auto;
