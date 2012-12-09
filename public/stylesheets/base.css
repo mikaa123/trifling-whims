@@ -81,3 +81,7 @@ article {
   margin-bottom: 100px;
 }
 
+article p img {
+  width: 100%;
+}
+
