@@ -1,5 +1,5 @@
 ---
-title: "Chimney burn your logs to keep you warm."
+title: "Chimney burns your logs to keep you warm."
 date: 2012-12-09 15:59
 ---
 ![Takes your logs](/images/chimney1.png)
