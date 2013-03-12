@@ -1,26 +1,28 @@
 body {
-  font-family: 'EB Garamond', serif;
+  font-family: 'Open Sans Condensed';
+  font-weight: 300;
+  font-size: 20px;
 }
 
 h1, h2, h3, h4 {
   text-transform: uppercase;
   margin-top: 50px;
   margin-bottom: 30px;
-  text-align: center;
 }
 
 h1 {
   font-weight: lighter;
-  font-size: 15pt;
+  font-size: 30pt;
   letter-spacing: 2px;
+  text-align: center;
 }
 
 h2 {
-  font-size: 13pt;
+  font-size: 18pt;
 }
 
 h3 {
-  font-size: 11pt;
+  font-size: 14pt;
 }
 
 h4 {
@@ -75,13 +77,23 @@ section {
 }
 
 article {
-  width: 400px;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 100px;
 }
 
-article p img {
-  width: 100%;
+article p {
+  text-align: justify;
 }
 
+article p img {
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  display: block;
+}
+
+.gist {
+  font-size: 13px;
+}

@@ -6,7 +6,9 @@
 %html{:lang => "en"}
 
   %head
+    
     %link{:href => "http://fonts.googleapis.com/css?family=EB+Garamond", :rel => "stylesheet", :type => 'text/css'}/
+    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700", :rel => "stylesheet", :type => 'text/css'}/
 
     %meta{:charset => "utf-8"}/
     %title= title
@@ -46,4 +48,12 @@
       \- - - -
 
     = yield
+
+    .separation
+      \- - - -
+      .footer
+        Say hi on Twitter
+        %a{:href => 'http://www.twitter.com/_ms123'}<@_ms123
+        and on 
+        %a{:href => 'https://github.com/mikaa123'}<Github
 
