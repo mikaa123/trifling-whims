@@ -97,3 +97,10 @@ article p img {
 .gist {
   font-size: 13px;
 }
+
+@media screen and (max-width: 850px) {
+  article {
+    width: 80%;
+  }
+}
+
