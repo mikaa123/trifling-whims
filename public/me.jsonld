@@ -1,0 +1,11 @@
+{
+  "@context": "http://json-ld.org/contexts/person.jsonld"
+  "@id": "http://sokolmichael.com/me.jsonld",
+  "@type": "Person",
+  "familyName": "Sokol",
+  "givenName": "Michael",
+  "gender": "Male",
+  "homepage": "http://sokolmichael.com",
+  "nationality": "French",
+  "born": "1988-05-31"
+}
