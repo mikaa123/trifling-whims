@@ -6,32 +6,16 @@
 %html{:lang => "en"}
 
   %head
-    
-    %link{:href => "http://fonts.googleapis.com/css?family=EB+Garamond", :rel => "stylesheet", :type => 'text/css'}/
-    %link{:href => "http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700", :rel => "stylesheet", :type => 'text/css'}/
-
     %meta{:charset => "utf-8"}/
     %title= title
-    <link href="http://feeds.feedburner.com/triflingwhims" rel="alternate" title="Trifling Whims" type="application/atom+xml"/>
-    
     /[if lt IE 9]
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-
-    %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1", :name => "viewport"}/
-
-    / JS
-    %script{:src => "http://code.jquery.com/jquery-1.6.4.min.js"}
-    %script{:src => "/javascripts/app.js"}
-    
-    / Stylesheets
-    %link{:href => "/stylesheets/base.css", :rel => "stylesheet"}/
-    %link{:href => "/stylesheets/prettify.css", :rel => "stylesheet"}/
   %body
     %header
-      .logo
-        .ms
+      %hgroup
+        %h2
           MICHAEL SOKOL'S
-        .ic
+        %h1
           TRIFLING WHIMS
       %nav
         %ul
@@ -44,16 +28,11 @@
             |
             %a{:href => '/about'} ABOUT
 
-    .separation
-      \- - - -
+    %section
+      = yield
 
-    = yield
-
-    .separation
-      \- - - -
-      .footer
-        Say hi on Twitter
-        %a{:href => 'http://www.twitter.com/_ms123'}<@_ms123
-        and on 
-        %a{:href => 'https://github.com/mikaa123'}<Github
-
+    %footer
+      Say hi on Twitter
+      %a{:href => 'http://www.twitter.com/_ms123'}<@_ms123
+      and on 
+      %a{:href => 'https://github.com/mikaa123'}<Github

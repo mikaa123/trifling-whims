@@ -36,10 +36,10 @@ class SourceFile
     content = ""
 
     content = File.read(File.join(base, "#{name}.md"))
-
     data = Metadown.render(content)
-    self.content  = data.output
-    self.metadata = data.metadata
+
+    @content  = data.output
+    @metadata = data.metadata
   end
 end
 

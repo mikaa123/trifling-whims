@@ -1,4 +1,6 @@
-require 'bundler'
+require 'rubygems'
+require 'bundler/setup'
+
 Bundler.require
 
 require "rss"
