@@ -4,6 +4,7 @@ gem 'sinatra'
 gem 'haml'
 gem 'metadown'
 gem 'thin'
+gem 'newrelic_rpm'
 
 group :development do
   gem 'guard-livereload'

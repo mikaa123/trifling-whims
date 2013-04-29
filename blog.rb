@@ -3,8 +3,11 @@ require 'bundler/setup'
 
 Bundler.require
 
-require "rss"
 require_relative "source_file"
+
+configure :production do
+  require 'newrelic_rpm'
+end
 
 class Blog < Sinatra::Base
 
@@ -44,6 +47,7 @@ class Blog < Sinatra::Base
   end
 
   get '/atom.xml' do
+    require "rss"
     archives = SourceFile.archive_data
 
     rss = RSS::Maker.make("atom") do |maker|
