@@ -14,3 +14,13 @@ task :new_post, :title do |t, args|
     post.puts ""
   end
 end
+
+desc "Development server"
+task :server do |t|
+  sh "bundle exec shotgun config.ru"
+end
+
+desc "Sass watcher"
+task :sass do |t|
+  sh "bundle exec sass --watch public/stylesheets/sass:public/stylesheets"
+end
