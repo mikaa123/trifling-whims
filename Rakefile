@@ -14,4 +14,3 @@ task :new_post, :title do |t, args|
     post.puts ""
   end
 end
-

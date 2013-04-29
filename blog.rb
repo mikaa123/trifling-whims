@@ -49,7 +49,7 @@ class Blog < Sinatra::Base
     rss = RSS::Maker.make("atom") do |maker|
       maker.channel.author = "Michael Sokol"
       maker.channel.updated = SourceFile.last_updated
-      maker.channel.title = "MS's Trifling Whims"
+      maker.channel.title = "Trifling Whims"
       maker.channel.id = "http://www.sokolmichael.com"
 
       archives.each do |link, title, updated, summary|
@@ -57,7 +57,7 @@ class Blog < Sinatra::Base
           item.link = link
           item.title = title
           item.updated = updated
-          item.summary = summary
+          item.summary = summary.gsub(/<\/?[^>]*>/, "")
         end
       end
     end
