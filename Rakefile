@@ -1,3 +1,8 @@
+def run_bg( cmd )
+  pid = Process.spawn( {}, cmd)
+  Process.detach( pid )
+end
+
 desc "Make a new post"
 task :new_post, :title do |t, args|
   args.with_defaults(:title => 'new-post')
@@ -17,10 +22,22 @@ end
 
 desc "Development server"
 task :server do |t|
-  sh "bundle exec shotgun config.ru"
+  run_bg( "bundle exec shotgun config.ru" )
 end
 
 desc "Sass watcher"
 task :sass do |t|
-  sh "bundle exec sass --watch public/stylesheets/sass:public/stylesheets"
+  run_bg( "bundle exec sass --watch public/stylesheets/sass:public/stylesheets" )
+end
+
+desc "Live Reload"
+task :guard do
+  run_bg( "bundle exec guard" )
+end
+
+desc "Shotgun + LiveReload + Sass"
+task :develop do
+  Rake::Task["server"].invoke
+  Rake::Task["sass"].invoke
+  Rake::Task["guard"].invoke
 end
