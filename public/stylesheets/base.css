@@ -38,16 +38,24 @@ p, ul {
   font-style: normal;
   font-weight: 400; }
 
-article header h1 {
-  margin: 50px 0 50px 0;
-  text-align: center;
-  font-family: 'Arapey';
-  text-transform: uppercase;
-  font-size: 4.25em;
-  font-weight: 700; }
-  @media screen and (max-width: 600px) {
-    article header h1 {
-      font-size: 2.25em; } }
+article header hgroup {
+  margin: 50px 0 50px 0; }
+  article header hgroup h1 {
+    text-align: center;
+    font-family: 'Arapey';
+    font-size: 4.25em;
+    font-weight: 700; }
+    @media screen and (max-width: 600px) {
+      article header hgroup h1 {
+        font-size: 2.25em; } }
+  article header hgroup h2 {
+    margin: 0;
+    font-family: 'Arapey', serif;
+    font-size: 1.25em;
+    text-align: center;
+    color: #B7B7B7;
+    font-weight: 400;
+    font-style: italic; }
 article img {
   max-width: 100%;
   margin: 0 auto; }

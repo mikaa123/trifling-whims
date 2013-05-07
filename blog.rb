@@ -20,7 +20,7 @@ class Blog < Sinatra::Base
   end
   
   get '/' do
-    @today = "Happy #{Date.today.strftime( "%A" )}."
+    @today = "happy #{Date.today.strftime( "%A" ).downcase}."
     @archives = SourceFile.archive_list
     haml :archive
   end
@@ -33,6 +33,9 @@ class Blog < Sinatra::Base
     begin
       source = SourceFile.new(params[:id])
       @title = source.metadata['title']
+      @posted = Date.parse(source.metadata['date']).strftime(
+        "posted on %B %-d of %Y."
+      ).downcase
       @content = source.content
       haml :post
     rescue Errno::ENOENT #lol i suck
