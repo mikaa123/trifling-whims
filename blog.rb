@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'bundler/setup'
+require 'Date'
 
 Bundler.require
 
@@ -19,10 +20,7 @@ class Blog < Sinatra::Base
   end
   
   get '/' do
-    haml :index
-  end
-
-  get '/archive' do
+    @today = "Happy #{Date.today.strftime( "%A" )}."
     @archives = SourceFile.archive_list
     haml :archive
   end
